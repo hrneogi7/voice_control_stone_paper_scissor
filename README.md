@@ -2,3 +2,5 @@
 play stone paper scissor by speaking out
 
 This is a basic voice control game of playing stone paper scissor ,chill and enjoy
+
+Requirements: pip install requirements.txt

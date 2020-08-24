@@ -10,7 +10,6 @@ from gtts import gTTS
 import random
 import playsound
 import os
-#import time
 class player:
     name=''
     def playername(self,name):
@@ -45,7 +44,7 @@ def speak(audio_string):
     print(hrit_obj.name + ":", audio_string) 
     os.remove(audio_file)
 def play():
-    #speak("Say stop when want to end the game")
+    
     
     player=0
     comp=0
@@ -59,10 +58,6 @@ def play():
         if pmove=="finish":
             p==False
             break
-        
-    
-        #speak("The computer chose " + cmove)
-        #speak("You chose " + pmove)
         
         if pmove==cmove:
             speak("The computer chose " + cmove)
@@ -111,7 +106,7 @@ def play():
         l[1]=comp
         return l
     
-#time.sleep(1)
+
 player_obj=player()
 hrit_obj=hrit()
 hrit_obj.name='Rexa'
