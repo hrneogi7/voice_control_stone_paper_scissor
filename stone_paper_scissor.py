@@ -10,7 +10,7 @@ from gtts import gTTS
 import random
 import playsound
 import os
-import time
+#import time
 class player:
     name=''
     def playername(self,name):
@@ -111,7 +111,7 @@ def play():
         l[1]=comp
         return l
     
-time.sleep(1)
+#time.sleep(1)
 player_obj=player()
 hrit_obj=hrit()
 hrit_obj.name='Rexa'
