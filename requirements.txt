@@ -1,0 +1,5 @@
+package used:
+1)speech_recognition
+2)gtts
+3)playsound
+4)os
